@@ -61,9 +61,6 @@ window.lunrData = {
         "Application.html": [
           "app",
           "applic",
-          "application.an",
-          "application.appl",
-          "applicationdatastor",
           "class",
           "contain",
           "datastor",
@@ -78,8 +75,6 @@ window.lunrData = {
           "option",
           "page",
           "properti",
-          "propertiesnam",
-          "propertyrout",
           "router",
           "singl",
           "startup",
@@ -88,6 +83,13 @@ window.lunrData = {
           "track",
           "us",
           "via"
+        ],
+        "Application.html#router": [
+          "applic",
+          "application#rout",
+          "member",
+          "properti",
+          "router"
         ],
         "Application.html#started": [
           "applic",
@@ -107,13 +109,6 @@ window.lunrData = {
           "map",
           "member",
           "metadata"
-        ],
-        "Application.html#router": [
-          "applic",
-          "application#rout",
-          "member",
-          "properti",
-          "router"
         ],
         "Application.html#datastore": [
           "applic",
@@ -243,7 +238,7 @@ window.lunrData = {
               "docs": {
                 "Application.html": {
                   "ref": "Application.html",
-                  "tf": 1.282051282051282
+                  "tf": 1.1627906976744187
                 }
               },
               "l": {
@@ -254,7 +249,11 @@ window.lunrData = {
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 1902.5641025641025
+                        "tf": 1906.9767441860465
+                      },
+                      "Application.html#router": {
+                        "ref": "Application.html#router",
+                        "tf": 16.666666666666664
                       },
                       "Application.html#started": {
                         "ref": "Application.html#started",
@@ -263,10 +262,6 @@ window.lunrData = {
                       "Application.html#name": {
                         "ref": "Application.html#name",
                         "tf": 25
-                      },
-                      "Application.html#router": {
-                        "ref": "Application.html#router",
-                        "tf": 16.666666666666664
                       },
                       "Application.html#datastore": {
                         "ref": "Application.html#datastore",
@@ -307,53 +302,54 @@ window.lunrData = {
                             "docs": {},
                             "n": {
                               "docs": {},
-                              ".": {
+                              "#": {
                                 "docs": {},
-                                "a": {
+                                "r": {
                                   "docs": {},
-                                  "n": {
-                                    "docs": {
-                                      "Application.html": {
-                                        "ref": "Application.html",
-                                        "tf": 1.282051282051282
-                                      }
-                                    }
-                                  },
-                                  "p": {
+                                  "o": {
                                     "docs": {},
-                                    "p": {
+                                    "u": {
                                       "docs": {},
-                                      "l": {
+                                      "t": {
                                         "docs": {
-                                          "Application.html": {
-                                            "ref": "Application.html",
-                                            "tf": 1.282051282051282
+                                          "Application.html#router": {
+                                            "ref": "Application.html#router",
+                                            "tf": 1150
                                           }
                                         }
                                       }
                                     }
-                                  }
-                                }
-                              },
-                              "d": {
-                                "docs": {},
-                                "a": {
-                                  "docs": {},
-                                  "t": {
+                                  },
+                                  "e": {
                                     "docs": {},
-                                    "a": {
+                                    "g": {
                                       "docs": {},
-                                      "s": {
+                                      "i": {
                                         "docs": {},
-                                        "t": {
+                                        "s": {
                                           "docs": {},
-                                          "o": {
+                                          "t": {
                                             "docs": {},
-                                            "r": {
-                                              "docs": {
-                                                "Application.html": {
-                                                  "ref": "Application.html",
-                                                  "tf": 1.282051282051282
+                                            "e": {
+                                              "docs": {},
+                                              "r": {
+                                                "docs": {},
+                                                "r": {
+                                                  "docs": {},
+                                                  "o": {
+                                                    "docs": {},
+                                                    "u": {
+                                                      "docs": {},
+                                                      "t": {
+                                                        "docs": {
+                                                          "Application.html#registerRouter": {
+                                                            "ref": "Application.html#registerRouter",
+                                                            "tf": 1150
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               }
                                             }
@@ -362,10 +358,7 @@ window.lunrData = {
                                       }
                                     }
                                   }
-                                }
-                              },
-                              "#": {
-                                "docs": {},
+                                },
                                 "s": {
                                   "docs": {},
                                   "t": {
@@ -481,61 +474,6 @@ window.lunrData = {
                                                   "Application.html#metadata": {
                                                     "ref": "Application.html#metadata",
                                                     "tf": 1150
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "r": {
-                                  "docs": {},
-                                  "o": {
-                                    "docs": {},
-                                    "u": {
-                                      "docs": {},
-                                      "t": {
-                                        "docs": {
-                                          "Application.html#router": {
-                                            "ref": "Application.html#router",
-                                            "tf": 1150
-                                          }
-                                        }
-                                      }
-                                    }
-                                  },
-                                  "e": {
-                                    "docs": {},
-                                    "g": {
-                                      "docs": {},
-                                      "i": {
-                                        "docs": {},
-                                        "s": {
-                                          "docs": {},
-                                          "t": {
-                                            "docs": {},
-                                            "e": {
-                                              "docs": {},
-                                              "r": {
-                                                "docs": {},
-                                                "r": {
-                                                  "docs": {},
-                                                  "o": {
-                                                    "docs": {},
-                                                    "u": {
-                                                      "docs": {},
-                                                      "t": {
-                                                        "docs": {
-                                                          "Application.html#registerRouter": {
-                                                            "ref": "Application.html#registerRouter",
-                                                            "tf": 1150
-                                                          }
-                                                        }
-                                                      }
-                                                    }
                                                   }
                                                 }
                                               }
@@ -800,7 +738,7 @@ window.lunrData = {
                       "docs": {
                         "Application.html": {
                           "ref": "Application.html",
-                          "tf": 2.564102564102564
+                          "tf": 2.3255813953488373
                         }
                       }
                     }
@@ -823,7 +761,7 @@ window.lunrData = {
                     },
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 111.28205128205128
+                      "tf": 111.16279069767442
                     }
                   }
                 }
@@ -863,7 +801,7 @@ window.lunrData = {
                   "docs": {
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 1.282051282051282
+                      "tf": 1.1627906976744187
                     }
                   }
                 }
@@ -916,7 +854,7 @@ window.lunrData = {
                         "docs": {
                           "Application.html": {
                             "ref": "Application.html",
-                            "tf": 2.564102564102564
+                            "tf": 3.488372093023256
                           },
                           "Application.html#datastore": {
                             "ref": "Application.html#datastore",
@@ -971,7 +909,7 @@ window.lunrData = {
                   "docs": {
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 1.282051282051282
+                      "tf": 1.1627906976744187
                     },
                     "Application.html#initialize": {
                       "ref": "Application.html#initialize",
@@ -1025,7 +963,7 @@ window.lunrData = {
                 "docs": {
                   "Application.html": {
                     "ref": "Application.html",
-                    "tf": 1.282051282051282
+                    "tf": 2.3255813953488373
                   },
                   "Application.html#name": {
                     "ref": "Application.html#name",
@@ -1047,7 +985,7 @@ window.lunrData = {
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 1.282051282051282
+                        "tf": 1.1627906976744187
                       }
                     }
                   }
@@ -1132,7 +1070,7 @@ window.lunrData = {
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 2.564102564102564
+                        "tf": 3.488372093023256
                       },
                       "Application.html#router": {
                         "ref": "Application.html#router",
@@ -1178,7 +1116,7 @@ window.lunrData = {
                   "docs": {
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 1.282051282051282
+                      "tf": 1.1627906976744187
                     }
                   }
                 }
@@ -1208,7 +1146,7 @@ window.lunrData = {
                       "docs": {
                         "Application.html": {
                           "ref": "Application.html",
-                          "tf": 1.282051282051282
+                          "tf": 1.1627906976744187
                         },
                         "Application.html#initialize": {
                           "ref": "Application.html#initialize",
@@ -1236,7 +1174,7 @@ window.lunrData = {
                   "docs": {
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 1.282051282051282
+                      "tf": 1.1627906976744187
                     }
                   }
                 }
@@ -1265,7 +1203,7 @@ window.lunrData = {
                       "docs": {
                         "Application.html": {
                           "ref": "Application.html",
-                          "tf": 1.282051282051282
+                          "tf": 1.1627906976744187
                         }
                       }
                     }
@@ -1478,7 +1416,7 @@ window.lunrData = {
                   "docs": {
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 1.282051282051282
+                      "tf": 1.1627906976744187
                     }
                   }
                 }
@@ -1535,7 +1473,7 @@ window.lunrData = {
                       "docs": {
                         "Application.html": {
                           "ref": "Application.html",
-                          "tf": 1.282051282051282
+                          "tf": 1.1627906976744187
                         },
                         "Application.html#start": {
                           "ref": "Application.html#start",
@@ -1571,7 +1509,7 @@ window.lunrData = {
                         "docs": {
                           "Application.html": {
                             "ref": "Application.html",
-                            "tf": 3.8461538461538463
+                            "tf": 3.488372093023256
                           },
                           "Application.html#metadata": {
                             "ref": "Application.html#metadata",
@@ -1600,6 +1538,10 @@ window.lunrData = {
                   "docs": {},
                   "r": {
                     "docs": {
+                      "Application.html#router": {
+                        "ref": "Application.html#router",
+                        "tf": 110
+                      },
                       "Application.html#started": {
                         "ref": "Application.html#started",
                         "tf": 110
@@ -1610,10 +1552,6 @@ window.lunrData = {
                       },
                       "Application.html#metadata": {
                         "ref": "Application.html#metadata",
-                        "tf": 110
-                      },
-                      "Application.html#router": {
-                        "ref": "Application.html#router",
                         "tf": 110
                       },
                       "Application.html#datastore": {
@@ -1652,7 +1590,7 @@ window.lunrData = {
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 1.282051282051282
+                        "tf": 1.1627906976744187
                       }
                     }
                   }
@@ -1672,7 +1610,7 @@ window.lunrData = {
                     "docs": {
                       "Application.html": {
                         "ref": "Application.html",
-                        "tf": 1.282051282051282
+                        "tf": 1.1627906976744187
                       }
                     }
                   }
@@ -1691,7 +1629,7 @@ window.lunrData = {
                 "docs": {
                   "Application.html": {
                     "ref": "Application.html",
-                    "tf": 1.282051282051282
+                    "tf": 1.1627906976744187
                   }
                 }
               }
@@ -1713,55 +1651,15 @@ window.lunrData = {
                         "docs": {
                           "Application.html": {
                             "ref": "Application.html",
-                            "tf": 1.282051282051282
-                          },
-                          "Application.html#started": {
-                            "ref": "Application.html#started",
-                            "tf": 16.666666666666664
+                            "tf": 3.488372093023256
                           },
                           "Application.html#router": {
                             "ref": "Application.html#router",
                             "tf": 16.666666666666664
-                          }
-                        },
-                        "e": {
-                          "docs": {},
-                          "s": {
-                            "docs": {},
-                            "n": {
-                              "docs": {},
-                              "a": {
-                                "docs": {},
-                                "m": {
-                                  "docs": {
-                                    "Application.html": {
-                                      "ref": "Application.html",
-                                      "tf": 1.282051282051282
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "y": {
-                        "docs": {},
-                        "r": {
-                          "docs": {},
-                          "o": {
-                            "docs": {},
-                            "u": {
-                              "docs": {},
-                              "t": {
-                                "docs": {
-                                  "Application.html": {
-                                    "ref": "Application.html",
-                                    "tf": 1.282051282051282
-                                  }
-                                }
-                              }
-                            }
+                          },
+                          "Application.html#started": {
+                            "ref": "Application.html#started",
+                            "tf": 16.666666666666664
                           }
                         }
                       }
@@ -1784,7 +1682,7 @@ window.lunrData = {
                   "docs": {
                     "Application.html": {
                       "ref": "Application.html",
-                      "tf": 1.282051282051282
+                      "tf": 1.1627906976744187
                     }
                   }
                 }
@@ -1798,7 +1696,7 @@ window.lunrData = {
             "docs": {
               "Application.html": {
                 "ref": "Application.html",
-                "tf": 5.128205128205128
+                "tf": 4.651162790697675
               }
             }
           }
@@ -1811,7 +1709,7 @@ window.lunrData = {
               "docs": {
                 "Application.html": {
                   "ref": "Application.html",
-                  "tf": 2.564102564102564
+                  "tf": 2.3255813953488373
                 }
               }
             }
@@ -1950,7 +1848,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 121
+      "length": 116
     },
     "corpusTokens": [
       "add",
@@ -1969,9 +1867,6 @@ window.lunrData = {
       "application#setmetadataitem",
       "application#start",
       "application#stop",
-      "application.an",
-      "application.appl",
-      "applicationdatastor",
       "augmented.j",
       "befor",
       "beforeiniti",
@@ -2006,8 +1901,6 @@ window.lunrData = {
       "option",
       "page",
       "properti",
-      "propertiesnam",
-      "propertyrout",
       "readm",
       "regist",
       "registerrout",
@@ -2076,8 +1969,18 @@ window.lunrData = {
       "name": "Application",
       "tags": "Application",
       "summary": "",
-      "description": "Application Class for use to define an application.An application contains metadata and initializers for the application.Applications track history, and normally would contain the entire single page App startup. Supported options are: metadata - an object of metadata to use for storing propertiesname - the name of the applicationdatastore - a datastore to use via the datastore propertyrouter - the router to use via the router property",
+      "description": "Application Class for use to define an application. An application contains metadata and initializers for the application. Applications track history, and normally would contain the entire single page App startup. Supported options are: metadata - an object of metadata to use for storing properties name - the name of the application datastore - a datastore to use via the datastore property router - the router to use via the router property",
       "body": ""
+    },
+    "Application.html#router": {
+      "id": "Application.html#router",
+      "kind": "member",
+      "title": "router",
+      "longname": "Application#router",
+      "name": "router",
+      "tags": "Application#router router",
+      "summary": "",
+      "description": "The router property of the application"
     },
     "Application.html#started": {
       "id": "Application.html#started",
@@ -2108,16 +2011,6 @@ window.lunrData = {
       "tags": "Application#metadata metadata",
       "summary": "",
       "description": "The metadata map"
-    },
-    "Application.html#router": {
-      "id": "Application.html#router",
-      "kind": "member",
-      "title": "router",
-      "longname": "Application#router",
-      "name": "router",
-      "tags": "Application#router router",
-      "summary": "",
-      "description": "The router property of the application"
     },
     "Application.html#datastore": {
       "id": "Application.html#datastore",
