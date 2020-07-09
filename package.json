@@ -26,24 +26,23 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "eslint": "^6.2.0",
-    "eslint-config-kentcdodds": "^14.3.4",
+    "documentation": "^13.0.2",
+    "eslint": "^7.4.0",
+    "eslint-config-kentcdodds": "^14.14.1",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.6.3",
-    "jsdom": "^15.1.1",
-    "mocha": "^6.2.0",
+    "jsdoc": "^3.6.4",
+    "jsdom": "^16.2.2",
+    "mocha": "^8.0.1",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.39.2",
-    "webpack-cli": "^3.3.7",
-    "@babel/core": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "documentation": "^12.1.1"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "bugs": {
     "url": "https://github.com/Augmentedjs/next-core-application/issues"
   },
