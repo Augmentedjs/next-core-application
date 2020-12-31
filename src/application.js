@@ -96,9 +96,9 @@ class Application {
 
     // preset a datastore object
     if (options.datastore) {
-      this._datastore = options.datastore;
+      this.datastore = options.datastore;
     } else {
-      this._datastore = {};
+      this.datastore = {};
     }
 
     if (options.router) {
